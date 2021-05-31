@@ -1,0 +1,229 @@
+body {
+  font-size: 16px;
+  color: #fff;
+  background-color: #61122f;
+  font-family: 'Oxygen', sans-serif;
+}
+
+#header-nav {
+  background: #f6b319;
+  border-radius: 0;
+  border: 0;
+}
+
+#logo-img {
+  background: url(https://raw.githubusercontent.com/jhu-ep-coursera/fullstack-course4/master/examples/Lecture30/after/images/restaurant-logo_large.png);
+  width: 150px;
+  height: 150px;
+  margin: 10px 15px 10px 0;
+}
+
+.navbar-brand {
+  padding-top: 25px;
+}
+
+.navbar-brand h1 {
+  font-family: 'Lora', serif;
+  color: #557c3e;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus, .navbar-brand a:link {
+  text-decoration: none;
+}
+.navbar-brand p { /* Kosher cert */
+  color: #000;
+  text-transform: uppercase;
+  font-size: .7em;
+  margin-top: 15px;
+}
+.navbar-brand p span { /* Star-K */
+  vertical-align: middle;
+}
+
+#nav-list a{
+  color: #951C49;
+  text-align: center;
+  font-size: 1.5em;
+}
+
+#nav-list a:hover{
+  background: #E7E7E7;
+}
+
+#del {
+  text-align: right;
+  font-size: 0.7em;
+  color: #557c3e;
+  margin: 0;
+}
+
+#phone {
+  margin-top: 5px;
+}
+
+.container button.navbar-toggler{
+  border: 1px solid #61122f;
+  margin-bottom: 15px;
+}
+
+button:hover {
+  background: #E7E7E7;
+}
+
+
+.jumbotron {
+      padding: 4rem 2rem;
+      margin-top: 2rem;
+      margin-bottom: 2rem;
+      background-color: var(--bs-light);
+      border-radius: .3rem;
+    }
+
+/*home page*/
+#menu-tile, #specials-tile, #map-tile {
+  height: 250px;
+  width: 100%;
+  margin-bottom: 15px;
+  position: relative;
+  border: 2px solid #3F0C1F;
+  overflow: hidden;
+}
+#menu-tile:hover, #specials-tile:hover, #map-tile:hover {
+  box-shadow: 0 1px 5px 1px #cccccc;
+}
+
+#menu-tile {
+  background: url('https://raw.githubusercontent.com/jhu-ep-coursera/fullstack-course4/master/examples/Lecture35/after/images/menu-tile.jpg') no-repeat;
+  background-position: center;
+}
+#specials-tile {
+  background: url('https://raw.githubusercontent.com/jhu-ep-coursera/fullstack-course4/master/examples/Lecture35/after/images/specials-tile.jpg') no-repeat;
+  background-position: center;
+}
+
+#menu-tile span, #specials-tile span, #map-tile span {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 1.6em;
+  text-transform: uppercase;
+  background-color: #000;
+  color: #fff;
+  opacity: .8;
+}
+
+
+/*end home page*/
+
+@media (min-width: 1200px) {
+  .container .jumbotron {
+    background: url(https://raw.githubusercontent.com/jhu-ep-coursera/fullstack-course4/master/examples/Lecture34/after/images/jumbotron_1200.jpg);
+    height: 675px;
+    box-shadow: 0 0 50px #3F0C1F;
+    border: 2px solid #3F0C1F;
+  }
+
+  
+}
+
+
+ @media (min-width: 992px) and (max-width: 1199px) {
+  #logo-img {
+    background: url(https://raw.githubusercontent.com/jhu-ep-coursera/fullstack-course4/master/examples/Lecture30/after/images/restaurant-logo_medium.png) no-repeat;
+    width: 100px;
+    height: 100px;
+    margin: 5px 5px 5px 0;
+  }
+  .container .jumbotron {
+    background: url(https://raw.githubusercontent.com/jhu-ep-coursera/fullstack-course4/master/examples/Lecture34/after/images/jumbotron_992.jpg);
+    height: 558px;
+    box-shadow: 0 0 50px #3F0C1F;
+    border: 2px solid #3F0C1F;
+  }
+
+ }
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .container .jumbotron {
+    background: url(https://raw.githubusercontent.com/jhu-ep-coursera/fullstack-course4/master/examples/Lecture34/after/images/jumbotron_768.jpg);
+    height: 432px;
+    box-shadow: 0 0 50px #3F0C1F;
+    border: 2px solid #3F0C1F;
+  }
+}
+
+@media (max-width: 767px) {
+  #logo-img {
+    width: 0px;
+    height: 0px;
+  }
+
+  #header-nav {
+    height: 125px;
+  }
+
+  .navbar-brand h1 {
+    font-size: 4vw;
+  }
+
+  #nav-list li {
+    background: #f6b319;
+  }
+
+  #phone {
+    margin-top: 0px;
+    padding-top: 10px;
+  }
+
+  #nav-list {
+    margin-top: 3px;
+  } 
+
+  #nav-list a {
+    padding: 5px;
+  }
+
+  .container .jumbotron {
+    padding: 0;
+    box-shadow: 0 0 50px #3F0C1F;
+    border: 2px solid #F0C1F;
+  }
+
+  #menu-tile, #specials-tile {
+    width: 360px;
+    margin: 0 auto 15px;
+  }
+}
+
+
+@media (max-width: 479px) {
+  #menu-tile, #specials-tile {
+    width: 280px;
+    margin: 0 auto 15px;
+  }
+
+  .navbar-brand h1 {
+    font-size: 5vw;
+  }
+
+  #nav-list li {
+    height: 50px;
+  }
+
+  #nav-list a {
+    font-size: 80%;
+  }
+
+  #del {
+    text-align: center;
+  }
+
+}
