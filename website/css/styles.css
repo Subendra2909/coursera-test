@@ -138,8 +138,109 @@ button:hover {
   opacity: .8;
 }
 
+#phone-large {
+  background: #f6b319;
+  text-align: center;
+  width: auto;
+  border: 1px solid #61122f;
+  width: 50%;
+  margin-left: 25%;
+  margin-top: 10px;
+  border-radius: 10px;
+}
+
+#phone-large h1{
+  text-decoration: none;
+  color: #61122f;
+}
+
 
 /*end home page*/
+/*menu category*/
+
+.category-tile { 
+  position: relative;
+  border: 2px solid #3F0C1F;
+  overflow: hidden;
+  width: 200px;
+  height: 200px;
+  margin: 0 auto 15px;
+}
+.category-tile span {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 1.2em;
+  text-transform: uppercase;
+  background-color: #000;
+  color: #fff;
+  opacity: .8;
+}
+.category-tile:hover {
+  box-shadow: 0 1px 5px 1px #cccccc;
+}
+
+#menu-categories-title {
+  margin-top: 10px;
+}
+
+#menu-categories-title + div {
+  margin-bottom: 50px;
+}
+/* SINGLE CATEGORY PAGE */
+.menu-item-tile {
+  margin-bottom: 25px;
+}
+.menu-item-tile hr {
+  width: 80%;
+  margin: auto;
+}
+.menu-item-tile .menu-item-price {
+  font-size: 1.1em;
+  text-align: right;
+  margin-top: -15px;
+  margin-right: -15px;
+}
+.menu-item-tile .menu-item-price span {
+  font-size: .6em;
+}
+.menu-item-photo {
+  position: relative;
+  border: 2px solid #3F0C1F; 
+  overflow: hidden;
+  padding: 0;
+  margin-right: -15px;
+  margin-left: auto;
+  margin-bottom: 20px;
+  max-width: 250px;
+}
+.menu-item-photo div {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 80px;
+  background-color: #557c3e;
+  text-align: center;
+}
+.menu-item-description {
+  padding-right: 30px;
+}
+h3.menu-item-title {
+  margin: 0 0 10px;
+}
+.menu-item-details {
+  font-size: .8em;
+  font-style: italic;
+}
+
+#extra-info {
+  padding-bottom: 2em;
+}
+}
+/* END SINGLE CATEGORY PAGE */
+
 /*footer*/
 
 .panel-footer {
@@ -282,6 +383,16 @@ button:hover {
     width: 50%;
     border: 0.5px solid white;
     margin: 10px auto;
+  }
+
+  .menu-item-photo {
+    margin-right: auto;
+  }
+  .menu-item-tile .menu-item-price {
+    text-align: center;
+  }
+  .menu-item-description {
+    text-align: center;
   }
 }
 

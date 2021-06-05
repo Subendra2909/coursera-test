@@ -1,0 +1,45 @@
+.names {
+	text-align: right;
+}
+
+.container > p {
+	text-align: center;
+	padding: 20px;
+	font-size: 1.5em;
+
+}
+
+.inputs > div {
+	margin-bottom: 30px ;
+}
+
+div > .button {
+	text-align: center;
+	margin: 10px;
+	padding-bottom: 30px;
+	padding-top: 10px;
+}
+
+h1 {
+	text-align: center;
+	margin: 10px;
+	font-family: "Times New Roman", serif;
+	font-weight: 1000;
+	padding: 30px;
+}
+
+body {
+	background: #0dcaf0;
+}
+
+.container {
+	background-color: #f8f9fa;
+	border-radius: 20px;
+	width: 60%;
+	font-family: "Times New Roman", serif;
+	font-size: 1.3em;
+}
+
+.number {
+	width: 55%;
+}

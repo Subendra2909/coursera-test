@@ -1,0 +1,37 @@
+h1, h3{
+	text-align: center;
+	margin: 20px;
+}
+
+#chick {
+	font-weight: bold;
+}
+
+#matter {
+	border: 1px solid black;
+	background-color: #828583;
+	font-weight: 500;
+	padding: 0 20px 0 20px;
+}
+
+header {
+	background-color: #828583;
+	border-bottom: 3px solid black;
+	border-top: 1px solid black ;
+}
+
+li {
+	text-align: center;
+	border-bottom: 1px solid black;
+	font-weight: 500;
+}
+
+ul {
+	border: 1px solid black;
+}
+
+.maintitle {
+	font-size: 3em;
+	padding-left: 10px;
+}
+

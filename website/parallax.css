@@ -1,0 +1,52 @@
+.part1, .part2, .part3 {
+	position: relative;
+	height: 100%;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	opacity: 0.9;
+}
+
+.part1 {
+
+	background-image: url(https://images.unsplash.com/photo-1515567307232-835b1e3660a6?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1868&q=80);
+}
+
+.part2 {	
+	height: 50%;
+	background-image: url(https://images.unsplash.com/photo-1622567078517-303852782a2e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80);
+}
+
+.part3 {
+	background-image: url(https://images.unsplash.com/photo-1622568203869-13bc7486becc?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=751&q=80);
+}
+body, html {
+	height: 100%;
+}
+
+#text1, #text2, #text3 {
+	position: absolute;
+	text-align: center;
+	width: 100%;
+	top: 50%;
+	padding: 10px;
+	background: white;
+}
+
+.matter {
+	padding-bottom: 20px;
+}
+
+ h3 {
+	padding: 20px;
+	text-align: center;
+}
+
+.matter1 {
+	padding: 40px;
+}
+
+.matter, .matter1 {
+	background-color: lightcoral;
+}
