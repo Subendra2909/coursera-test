@@ -8,40 +8,78 @@
 	<title>Style COnference</title>
 </head>
 <body>
-	<header>
-		<nav class="navbar navbar-expand-lg navbar-light bg-light">
-          <div class="container">
-            <a class="navbar-brand" href="#"><span>STYLES</span><br><span>CONFERENCE</span></a>
-            <h4>August 24-26th-Chicago,IL</h4>
+	<header class="container-fluid">
+    <div id="headpart" class="container">
+		  <nav id="navigationbar" class="navbar navbar-expand-xl navbar-dark"> 
+        <div class="navbar-brand">Styles<br>conference</div> 
+        
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-
-            <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarNav">
-              <ul class="navbar-nav ">
-                <li class="nav-item">
-                  <a class="nav-link" href="#">HOME</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">SPEAKERS</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">SCHEDULE</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">VENUE</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">REGISTER</a>
-                </li>
-              </ul>
-            </div>
-          </div>   
-        </nav>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto navlist">
+            <li class="nav-item navitem">
+              <a class="nav-link" href="#">HOME</a>
+            </li>
+            <li class="nav-item navitem">
+              <a class="nav-link" href="#">SPEAKERS</a>
+            </li>
+            <li class="nav-item navitem">
+              <a class="nav-link" href="schedule.html">SCHEDULE</a>
+            </li>
+            <li class="nav-item navitem">
+              <a class="nav-link" href="#">VENUE</a>
+            </li>
+            <li class="nav-item navitem">
+              <a class="nav-link" href="#">REGISTER</a>
+            </li>
+          </ul>
+        </div>
+      </nav> 
+    </div>
 	</header>
+  <section id="section1">
+    <p id="main">Dedicated to the Craft of Building Websites</p>
+    <p class="sub">Every year the brightest web designers and front-end developers descend on</p>
+    <p class="sub">Chicago to discuss the latest tech logies. Join us this August!</p>
+    <button>Register Now</button>
+  </section> 
+<div id="container" class="container">
+  <section class="row">
+    <div class="col-lg-4"><div id="cols">
+      <h4 id="h4">Speakers</h4>
+      <a id="link" href="#"><img src="https://jolly-kalam-23776e.netlify.app/styledconferences/assets/images/home/speakers.jpg">
+      <p id="subheading">World-Class Speakers</p></a>
+      <p>Joining us from all around the world are over twenty fantastic speakers, here to share their stories.</p>
+    </div></div>
+    <div class="col-lg-4"><div id="cols">
+      <h4 id="h4">Schedule</h4>
+      <a id="link" href="#"><img src="https://jolly-kalam-23776e.netlify.app/styledconferences/assets/images/home/schedule.jpg">
+      <p id="subheading">Three Inspiring Days</p></a>
+      <p>Enjoy three inspiring and action-packed days of tals, gatherings, and all-around good times.</p>
+    </div></div>
+    <div class="col-lg-4"><div id="cols">
+      <h4 id="h4">Venue</h4>
+      <a id="link" href="#"><img src="https://jolly-kalam-23776e.netlify.app/styledconferences/assets/images/home/venue.jpg">
+      <p id="subheading">The Chicago Theatre</p></a>
+      <p>Within the heart of downtown Chicago, The Chicago Theatre will provide a beautiful conference venue.</p>
+    </div></div>
+  </section>
+</div>
 
-
+<footer>
+  <div id="copy">&copyStyles Conference</div>
+  <nav id="nav">
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Speakers</a></li>
+      <li><a href="#">Schedule</a></li>
+      <li><a href="#">Venue</a></li>
+      <li><a href="#">Register</a></li>
+    </ul>
+  </nav>
+</footer>
 
   <script src="js/jquery-3.6.0.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
