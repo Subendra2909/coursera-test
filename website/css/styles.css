@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 body {
   font-size: 16px;
   color: #fff;
@@ -142,16 +142,18 @@ button:hover {
 #phone-large {
   background: #f6b319;
   text-align: center;
-  width: auto;
-  border: 1px solid #61122f;
-  width: 50%;
-  margin-left: 25%;
+  padding: 0 10px 0 10px;
+  border: 1px solid white;
   margin-top: 10px;
   border-radius: 10px;
 }
 
-#phone-large h1{
+#phone-number-link {
   text-decoration: none;
+  }
+
+#phone-large h1{
+  padding-top: 5px;
   color: #61122f;
 }
 
@@ -307,6 +309,10 @@ h3.menu-item-title {
     border: 2px solid #3F0C1F;
   }
 
+  .navbar-brand {
+    font-size: 1em;
+  }
+
  }
 
 @media (min-width: 768px) and (max-width: 991px) {
@@ -320,6 +326,13 @@ h3.menu-item-title {
   .container button.navbar-toggler {
     margin-bottom: 3.7em;
   }
+
+  #logo-img {
+    width: 100px;
+  }
+  
+
+  
 }
 
 
@@ -420,7 +433,16 @@ h3.menu-item-title {
     text-align: center;
   }
 
-=======
+  #phone-large h1 {
+    font-size: 1.3em;
+    padding-top: 5px;
+  }
+
+  
+
+}
+
+
 body {
   font-size: 16px;
   color: #fff;
@@ -821,5 +843,4 @@ h3.menu-item-title {
     text-align: center;
   }
 
->>>>>>> 24b2c238a730f914bd68939e6b2eebb4262095b7
 }
