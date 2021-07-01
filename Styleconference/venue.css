@@ -1,0 +1,95 @@
+.navbar-brand {
+	font-size: 3.5em;
+	line-height: 55px;
+	font-weight: 100;
+	text-transform: uppercase;
+	padding: 50px 0 20px 0;
+
+}
+
+header {
+	background-color: #175569;	
+}
+.navlist {
+	font-size: 1.3em;
+	letter-spacing: .5px;
+}
+
+#section1 {
+	text-align: center;
+	font-size: 1.5em;
+	background: linear-gradient(to right, #54a877, #fcedcf);
+	padding: 2em;
+	color: #4d4746;
+}
+
+h4 {
+	padding-bottom: 0.5em;
+	font-size: 1.6em;
+	font-weight: 400;
+}
+
+#nav li {
+	display: inline-block;
+	margin: 0 10px;
+}
+
+#nav {
+	text-align: right;
+}
+
+#nav a {
+	text-decoration: none;
+}
+
+.venue {
+	padding-left: 12em;
+}
+
+.wrapper-1, .wrapper-2 {
+	display: grid;
+	grid-template-columns: 1fr 3fr;
+	padding: 0 5em 0 5em;
+	grid-column-gap: 1em;
+}
+
+.wrapper-1 {
+	margin: 5em 0 1em 0;
+}
+
+.wrapper-2 {
+	margin-bottom:5em ;
+}
+
+
+
+.venue-title {
+	font-size: 1.8em;
+	color: #888;
+	font-weight: 400;
+}
+
+.venue-address {
+	font-size: 1.2em;
+	color: #888;
+}
+
+footer {
+	background-color: #175569;
+	margin: 0;
+	padding: 40px;
+	margin-top: 5em;
+}
+
+#nav ul {
+	margin: 0;
+}
+
+#nav a {
+	color: white;
+}
+
+#copy {
+	float: left;
+	color:  #54a877;
+}

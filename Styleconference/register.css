@@ -1,0 +1,144 @@
+.navbar-brand {
+	font-size: 3.5em;
+	line-height: 55px;
+	font-weight: 100;
+	text-transform: uppercase;
+	padding: 50px 0 20px 0;
+
+}
+
+header {
+	background-color: #175569;	
+}
+.navlist {
+	
+	font-size: 1.3em;
+	letter-spacing: .5px;
+}
+
+#section1 {
+	text-align: center;
+	font-size: 1.5em;
+	background: linear-gradient(to right, #54a877, #fcedcf);
+	padding: 2em;
+	color: #4d4746;
+}
+
+h4 {
+	padding-bottom: 0.5em;
+	font-size: 1.6em;
+	font-weight: 400;
+}
+
+#nav li {
+	display: inline-block;
+	margin: 0 10px;
+}
+
+#nav {
+	text-align: right;
+}
+
+#nav a {
+	text-decoration: none;
+}
+
+.wrapper {
+	display: grid;
+	grid-template-columns: 2fr 1fr;
+	grid-column-gap: 1em;
+
+}
+
+.grid-1, .grid-2 {
+	margin: 5em 0 5em 0;
+}
+
+.grid-2 p {
+	margin-bottom: 0;
+}
+
+.grid-2 input, .grid-2 textarea {
+	margin-bottom: 1.3em;
+	width: 100%;
+}
+
+.grid-1 p, .grid-1 ul, .grid-2 p {
+	color: #888;
+}
+
+.grid-2 select {
+	margin-bottom: 1.3em;
+	padding: 5px;
+}
+
+.grid-1 {
+	padding-left: 5em;
+}
+
+.grid-2 {
+	padding-right: 5em;
+}
+
+.grid-2 input {
+	padding: 5px;
+}
+
+h5, h6 {
+	color: #787272;
+}
+
+#purchase {
+	background-color: #2d98ba;
+	border: 1px solid #2a8dad;
+	padding: 1em;
+	width: auto;
+	border-radius: 5px;
+}
+
+#purchase:hover {
+	background-color: #82c9e0;
+}
+
+
+/*
+.grid-2 label input, .grid-2 label select {
+	width: 100%;
+}*/
+
+footer {
+	background-color: #175569;
+	margin: 0;
+	padding: 40px;
+}
+
+#nav ul {
+	margin: 0;
+}
+
+#nav a {
+	color: white;
+}
+
+#copy {
+	float: left;
+	color:  #54a877;
+}
+
+@media only screen and (max-width: 991px) {
+	.wrapper {
+		grid-template-columns: 1fr;
+		grid-template-rows: 1fr;
+		grid-row-gap: 1em;
+	}
+
+	.grid-1 {
+		padding: 0;
+		margin: 3em 0 0 0;
+	}
+
+	.grid-2 {
+		margin: 3em 0 3em 0;
+		padding: 0;
+	}
+}

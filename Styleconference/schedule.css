@@ -1,0 +1,118 @@
+.navbar-brand {
+	font-size: 3.5em;
+	line-height: 55px;
+	font-weight: 100;
+	text-transform: uppercase;
+	padding: 50px 0 20px 0;
+
+}
+
+header {
+	background-color: #175569;	
+}
+.navlist {
+	
+	font-size: 1.3em;
+	letter-spacing: .5px;
+}
+
+#section1 {
+	text-align: center;
+	font-size: 1.5em;
+	background: linear-gradient(to right, #54a877, #fcedcf);
+	padding: 2em;
+	color: #4d4746;
+}
+
+h4 {
+	padding-bottom: 0.5em;
+	font-size: 1.6em;
+	font-weight: 400;
+}
+
+#nav li {
+	display: inline-block;
+	margin: 0 10px;
+}
+
+#nav {
+	text-align: right;
+}
+
+#nav a {
+	text-decoration: none;
+}
+
+table {
+	text-align: left;
+	margin: 5em 5em 0 5em;
+}
+
+.talkers0, .talkers, .tabletitle {
+	text-decoration: none;
+	color: #648880;
+}
+
+.talkers0:hover {
+	color: #648880;
+}
+
+.talkers:hover {
+	color: #a9b2b9;
+}
+
+td {
+	border-bottom: 1px solid #a9b2b9;
+	padding: 1em 1em 1em 0;
+}
+
+.category {
+	color: #a9b2b9;
+	font-size: 1.3em;
+}
+
+.time {
+	color: #a9b2b9;
+	font-weight: 400;
+	text-align: right;
+}
+
+th {
+	padding-right: 2em;
+}
+
+.tabletitle {
+	font-size: 1.5em;
+	font-weight: 400;
+	text-align: right;
+	padding-right: 1.3em;
+}
+
+
+.talkers0 {
+	font-size: 1.3em;
+}
+
+
+footer {
+	background-color: #175569;
+	margin: 0;
+	padding: 40px;
+}
+
+ {
+	font-size: 1.3em;
+}
+
+#nav ul {
+	margin: 0;
+}
+
+#nav a {
+	color: white;
+}
+
+#copy {
+	float: left;
+	color:  #54a877;
+}

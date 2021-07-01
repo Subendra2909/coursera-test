@@ -1,0 +1,99 @@
+.navbar-brand {
+	font-size: 3.5em;
+	line-height: 55px;
+	font-weight: 100;
+	text-transform: uppercase;
+	padding: 50px 0 20px 0;
+
+}
+
+header {
+	background-color: #175569;	
+}
+.navlist {
+	
+	font-size: 1.3em;
+	letter-spacing: .5px;
+}
+
+#section1 {
+	text-align: center;
+	font-size: 1.5em;
+	background: linear-gradient(to right, #54a877, #fcedcf);
+	padding: 2em;
+	color: #4d4746;
+}
+
+h4 {
+	padding-bottom: 0.5em;
+	font-size: 1.6em;
+	font-weight: 400;
+}
+
+#nav li {
+	display: inline-block;
+	margin: 0 10px;
+}
+
+#nav {
+	text-align: right;
+}
+
+#nav a {
+	text-decoration: none;
+}
+
+h6 {
+	font-weight: 200;
+}
+.wrapper {
+	display: grid;
+	grid-template-rows: 1fr;
+	grid-row-gap: 4em;
+	padding: 0 5em 0 5em;
+	margin: 5em 0 5em 0;
+	color: #888;
+}
+
+.wrapper1 {
+	display: grid;
+	grid-template-columns: 2fr 1fr;
+	grid-column-gap: 1em;
+}
+
+.speaker-link a {
+	text-decoration: none;
+	color: #888;
+}
+
+.grid-2 img {
+	border-radius: 100%;
+	margin: -5em 0 1em 0;
+}
+
+.speaker {
+	text-align: center;
+	margin: 6em 3em 0 3em;
+	border: 1px solid #888;
+	padding-bottom: 1.5em;
+	border-radius: 5px;
+}
+
+footer {
+	background-color: #175569;
+	margin: 0;
+	padding: 40px;
+}
+
+#nav ul {
+	margin: 0;
+}
+
+#nav a {
+	color: white;
+}
+
+#copy {
+	float: left;
+	color:  #54a877;
+}

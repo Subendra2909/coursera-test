@@ -1,0 +1,27 @@
+body {
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Grande', 'Lucida Sans', sans-serif;
+    background-image: url('https://raw.githubusercontent.com/scrimba/learn-javascript/main/3.%20Build%20a%20Blackjack%20game/12.%20Add%20basic%20styling/images/table.png');
+    background-size: cover;
+    color: white;
+    font-weight: bold;
+}
+
+h1 {
+    color: goldenrod;
+}
+
+#message-el {
+    font-style: italic;
+}
+
+button {
+    color: #016f32;
+    width: 150px;
+    background: goldenrod;
+    padding: 5px 0 5px 0;
+    font-weight: bold;
+    border: none;
+    border-radius: 2px;
+    margin: 2px 0 2px 0;
+}
