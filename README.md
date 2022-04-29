@@ -1,2 +1,3 @@
 # coursera-test
-coursera rest repository
+My projects
+
